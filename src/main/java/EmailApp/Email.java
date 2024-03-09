@@ -51,7 +51,7 @@ public class Email {
 
     // Generate a random password
     private String randomPassword(int length){
-        String passwordSet="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%";
+        String passwordSet="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%";
         char[] password = new char[length];
         for (int i=0; i<length; i++){
             int randomNumber = (int) (Math.random() * passwordSet.length());
